@@ -7,20 +7,27 @@
   </head>
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-    <article>
+    <div class="main">
       <header id="header">
         <nav id="nav-bar">
           <div id="nav-image-container">
             <img id="header-img" src="PowerShell-7-Banner.png" alt="" />
           </div>
           <div id="nav-button-container">
-            <button class="nav-link"><a href="#">link1</a></button>
-            <button class="nav-link"><a href="#">link2</a></button>
-            <button class="nav-link"><a href="#">link3</a></button>
+            <button>
+              <a class="nav-link" href="#content">Read more on Powershell 7</a>
+            </button>
+            <button>
+              <a class="nav-link" href="#form">Enter e-mail for more info</a>
+            </button>
+            <button>
+              <a class="nav-link" href="#video">Watch video on Powershell 7</a>
+            </button>
           </div>
         </nav>
-        <h1 id="title">bla</h1>
+        <h1 id="title">Product landing page for Powershell 7</h1>
       </header>
+      <article id="content"></article>
       <form
         action="https://www.freecodecamp.com/email-submit"
         method="GET"
@@ -39,13 +46,25 @@
         </fieldset>
       </form>
       <iframe
-        src="https://www.youtube.com/watch?v=at_MagcYK5M"
+        id="video"
+        src="https://www.youtube.com/embed/at_MagcYK5M"
         frameborder="0"
+        width="620"
+        height="455"
       ></iframe>
-      <!--https://www.youtube.com/watch?v=at_MagcYK5M-->
-    </article>
+    </div>
     <div class="footer">
-      <p>freeCodeCamp Product Landing Page project by Jakob Dahl</p>
+      <p>
+        freeCodeCamp
+        <a
+          href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Product Landing Page project</a
+        >
+        by Jakob Dahl
+      </p>
       <p>
         Code is on
         <a

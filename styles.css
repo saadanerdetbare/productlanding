@@ -1,17 +1,19 @@
 @media only screen and (max-width: 1000px) {
-  article {
+  .main {
     width: 95vw;
     margin: auto;
-    border: 3px solid green;
   }
 }
 
 @media only screen and (min-width: 1000px) {
-  article {
+  .main {
     width: 70vw;
     margin: auto;
-    border: 3px solid green;
   }
+}
+
+fieldset {
+  border: none;
 }
 
 #nav-bar {
@@ -42,7 +44,6 @@
 }
 
 .nav-link {
-  width: 4vw;
   height: 4vh;
 }
 
