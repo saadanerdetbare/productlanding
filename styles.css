@@ -16,6 +16,10 @@ fieldset {
   border: none;
 }
 
+article h2 {
+  text-align: center;
+}
+
 #nav-bar {
   position: fixed;
   left: 0;
