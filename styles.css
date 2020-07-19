@@ -1,3 +1,56 @@
+@media only screen and (max-width: 1000px) {
+  article {
+    width: 95vw;
+    margin: auto;
+    border: 3px solid green;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  article {
+    width: 70vw;
+    margin: auto;
+    border: 3px solid green;
+  }
+}
+
+#nav-bar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 5vh;
+  background-color: #dcdcdc;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#nav-button-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#nav-image-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+#header-img {
+  height: 5vh;
+  width: auto;
+}
+
+.nav-link {
+  width: 4vw;
+  height: 4vh;
+}
+
+#header h1 {
+  margin-top: 6vh;
+  text-align: center;
+}
+
 .footer {
   position: fixed;
   left: 0;
